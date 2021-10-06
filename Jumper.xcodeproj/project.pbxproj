@@ -18,6 +18,9 @@
 		5249588C270E0B5B005FFED6 /* BACKTO1982.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 5249588B270E0B28005FFED6 /* BACKTO1982.TTF */; };
 		5249588F270E0EF4005FFED6 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249588E270E0EF4005FFED6 /* MenuScene.swift */; };
 		52495891270E1490005FFED6 /* EndlessBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52495890270E1490005FFED6 /* EndlessBackground.swift */; };
+		52495896270E351B005FFED6 /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52495893270E351A005FFED6 /* theme.mp3 */; };
+		52495897270E351B005FFED6 /* dinosaur.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52495894270E351A005FFED6 /* dinosaur.wav */; };
+		52495898270E351B005FFED6 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52495895270E351B005FFED6 /* hit.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		5249588D270E0CB0005FFED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5249588E270E0EF4005FFED6 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		52495890270E1490005FFED6 /* EndlessBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessBackground.swift; sourceTree = "<group>"; };
+		52495893270E351A005FFED6 /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
+		52495894270E351A005FFED6 /* dinosaur.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dinosaur.wav; sourceTree = "<group>"; };
+		52495895270E351B005FFED6 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				5249588D270E0CB0005FFED6 /* Info.plist */,
-				5249588A270E0AFC005FFED6 /* Fonts */,
+				52495892270E34D4005FFED6 /* sounds */,
+				5249588A270E0AFC005FFED6 /* fonts */,
 				5238E210270DA2B40017961C /* AppDelegate.swift */,
 				5238E212270DA2B40017961C /* GameScene.sks */,
 				52495890270E1490005FFED6 /* EndlessBackground.swift */,
@@ -82,12 +89,22 @@
 			path = Jumper;
 			sourceTree = "<group>";
 		};
-		5249588A270E0AFC005FFED6 /* Fonts */ = {
+		5249588A270E0AFC005FFED6 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
 				5249588B270E0B28005FFED6 /* BACKTO1982.TTF */,
 			);
-			path = Fonts;
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		52495892270E34D4005FFED6 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				52495894270E351A005FFED6 /* dinosaur.wav */,
+				52495895270E351B005FFED6 /* hit.wav */,
+				52495893270E351A005FFED6 /* theme.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +170,9 @@
 				5238E213270DA2B40017961C /* GameScene.sks in Resources */,
 				5238E21E270DA2B90017961C /* Assets.xcassets in Resources */,
 				5238E228270DAAD70017961C /* MenuScene.sks in Resources */,
+				52495897270E351B005FFED6 /* dinosaur.wav in Resources */,
+				52495898270E351B005FFED6 /* hit.wav in Resources */,
+				52495896270E351B005FFED6 /* theme.mp3 in Resources */,
 				5238E221270DA2B90017961C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
