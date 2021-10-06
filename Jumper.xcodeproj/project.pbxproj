@@ -15,6 +15,9 @@
 		5238E21E270DA2B90017961C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5238E21D270DA2B90017961C /* Assets.xcassets */; };
 		5238E221270DA2B90017961C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5238E21F270DA2B90017961C /* LaunchScreen.storyboard */; };
 		5238E228270DAAD70017961C /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5238E227270DAAD70017961C /* MenuScene.sks */; };
+		5249588C270E0B5B005FFED6 /* BACKTO1982.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 5249588B270E0B28005FFED6 /* BACKTO1982.TTF */; };
+		5249588F270E0EF4005FFED6 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249588E270E0EF4005FFED6 /* MenuScene.swift */; };
+		52495891270E1490005FFED6 /* EndlessBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52495890270E1490005FFED6 /* EndlessBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,10 @@
 		5238E21D270DA2B90017961C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5238E220270DA2B90017961C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5238E227270DAAD70017961C /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		5249588B270E0B28005FFED6 /* BACKTO1982.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BACKTO1982.TTF; sourceTree = "<group>"; };
+		5249588D270E0CB0005FFED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5249588E270E0EF4005FFED6 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		52495890270E1490005FFED6 /* EndlessBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,16 +66,28 @@
 		5238E20F270DA2B40017961C /* Jumper */ = {
 			isa = PBXGroup;
 			children = (
+				5249588D270E0CB0005FFED6 /* Info.plist */,
+				5249588A270E0AFC005FFED6 /* Fonts */,
 				5238E210270DA2B40017961C /* AppDelegate.swift */,
 				5238E212270DA2B40017961C /* GameScene.sks */,
+				52495890270E1490005FFED6 /* EndlessBackground.swift */,
 				5238E216270DA2B40017961C /* GameScene.swift */,
 				5238E227270DAAD70017961C /* MenuScene.sks */,
+				5249588E270E0EF4005FFED6 /* MenuScene.swift */,
 				5238E218270DA2B40017961C /* GameViewController.swift */,
 				5238E21A270DA2B40017961C /* Main.storyboard */,
 				5238E21D270DA2B90017961C /* Assets.xcassets */,
 				5238E21F270DA2B90017961C /* LaunchScreen.storyboard */,
 			);
 			path = Jumper;
+			sourceTree = "<group>";
+		};
+		5249588A270E0AFC005FFED6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5249588B270E0B28005FFED6 /* BACKTO1982.TTF */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5249588C270E0B5B005FFED6 /* BACKTO1982.TTF in Resources */,
 				5238E21C270DA2B40017961C /* Main.storyboard in Resources */,
 				5238E213270DA2B40017961C /* GameScene.sks in Resources */,
 				5238E21E270DA2B90017961C /* Assets.xcassets in Resources */,
@@ -145,6 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5238E217270DA2B40017961C /* GameScene.swift in Sources */,
+				5249588F270E0EF4005FFED6 /* MenuScene.swift in Sources */,
+				52495891270E1490005FFED6 /* EndlessBackground.swift in Sources */,
 				5238E219270DA2B40017961C /* GameViewController.swift in Sources */,
 				5238E211270DA2B40017961C /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3U6QUA8XBP;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jumper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,6 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3U6QUA8XBP;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jumper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
